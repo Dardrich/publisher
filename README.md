@@ -1,4 +1,5 @@
 a. How much data your publisher program will send to the message broker in one run?
+
 The publisher program sends 5 messages to the message broker in a run
 
 b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
@@ -7,3 +8,5 @@ Same message broker (both connect to the same RabbitMQ instance running on local
 Running RabbitMQ as message broker
 ![alt text](rabbit1.jpg)
 
+Sending and processing event
+![alt text](rabbit2.jpg)
